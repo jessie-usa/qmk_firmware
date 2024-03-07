@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*                                                                                                                              */
 
 
-                KC_1,                        Q(C(S(KC_T))),            Q(C(S(KC_S))),       Q(C(S(KC_R)),     TO(_FN),
+                KC_1,                        G(C(S(KC_T))),            G(C(S(KC_S))),       G(C(S(KC_R))),     TO(_FN),
 
     /*                                                                                                                              */
 
