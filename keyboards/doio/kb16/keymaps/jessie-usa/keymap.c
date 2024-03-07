@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*                                                                                                                              */
 
 
-                G(KC_W),                     G(KC_COMMA),              S(KC_SLASH),         G(KC_M),          S(C(KC_D)),
+                G(KC_W),                     G(KC_COMMA),              G(KC_M),             S(KC_SLASH),          S(C(KC_D)),
 
     /*                                                                                                                              */
 
@@ -63,12 +63,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*                                                                                                                              */
 
 
-                G(A(S(KC_1))),               G(A(S(C(KC_Z)))),         G(S(KC_Z)),          G(KC_Z),          G(KC_F10),
+                G(A(S(KC_1))),              G(S(KC_Z)),                  G(A(C(S(KC_X)))),          G(KC_Z),          G(KC_F10),
 
     /*                                                                                                                              */
 
 
-                _______            ,         S(C(KC_R))      ,         KC_S         ,       KC_Z
+                KC_P,                       S(C(KC_R)),                KC_S         ,       KC_Z
 
     ),
     [_FN] = LAYOUT(
