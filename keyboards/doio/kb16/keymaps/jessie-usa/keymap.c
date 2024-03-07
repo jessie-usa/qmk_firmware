@@ -63,7 +63,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*                                                                                                                              */
 
 
-                G(A(S(KC_1))),               KC_P,                     KC_U,                C(KC_D),          G(KC_F10),
+                G(A(S(KC_1))),               G(A(S(C(KC_Z)))),         G(S(KC_Z)),          G(KC_Z),          G(KC_F10),
 
     /*                                                                                                                              */
 
